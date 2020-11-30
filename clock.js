@@ -24,7 +24,7 @@ function clock() {
 var bellhits = 0;
 var bell;
 setInterval(function () {
-  bell = new Audio("Bell.mp3");
+  bell = new Audio("bell.mp3");
   if (mins == 0 && bellhits < hour) {
     bellhits++;
     bell.play();
